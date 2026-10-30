@@ -69,3 +69,171 @@ a{
     border-radius: 4px;
     font-size: 17px;
 }
+.hero{
+    height: 690px;
+}
+.bulb{
+    position: absolute;
+    top: 195px;
+    left: 410px;
+    font-size: 60px;
+}
+.hero-row{
+    display: grid;
+    grid-template-columns: 643px 555px;
+    gap: 12px;
+    padding-top: 100px;
+}
+.h-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.h-text{
+    width: 490px;
+    margin-top: 57px;
+    font-size: 17px;
+    color: rgb(150, 150, 156);
+}
+.h-btn{
+    width: 398px;
+    height: 106px;
+    margin-top: 92px;
+    border-radius: 12px;
+    font-size: 26px;
+}
+.h-img{
+    width: 555px;
+    height: 470px;
+    margin-top: 35px;
+}
+.skills{
+    height: 1220px;
+}
+.sk-title{
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    width: 1210px;
+}
+.sk-grid{
+    position: absolute;
+    top: 211px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 392px);
+    grid-template-rows: 476px 312px;
+    gap: 18px;
+}
+.sk-card{
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+}
+.s1{
+    grid-row: 1 / 3;
+}
+.s4{
+    grid-column: 2 / 4;
+}
+.sk-img{
+    position: absolute;
+}
+.sk-name{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sk-text{
+    position: absolute;
+    font-size: 13px;
+    color: rgb(150, 150, 156);
+}
+.sk-btn{
+    position: absolute;
+    font-weight: bold;
+}
+.i1{
+    top: 65px;
+    left: 39px;
+    width: 313px;
+    height: 287px;
+}
+.n1{
+    top: 410px;
+    left: 39px;
+}
+.x1{
+    top: 462px;
+    left: 39px;
+    width: 310px;
+}
+.y1{
+    top: 555px;
+    left: 39px;
+    width: 310px;
+}
+.b1{
+    top: 672px;
+    left: 39px;
+    width: 209px;
+}
+.i2{
+    top: 20px;
+    left: 85px;
+    width: 230px;
+    height: 216px;
+}
+.n2{
+    top: 250px;
+    left: 39px;
+}
+.x2{
+    top: 292px;
+    left: 39px;
+    width: 310px;
+}
+.b2{
+    top: 387px;
+    left: 39px;
+    width: 197px;
+}
+.i3{
+    top: 18px;
+    left: 42px;
+    width: 330px;
+    height: 220px;
+}
+.n3{
+    top: 252px;
+    left: 39px;
+}
+.x3{
+    top: 290px;
+    left: 39px;
+    width: 310px;
+}
+.b3{
+    top: 385px;
+    left: 39px;
+    width: 197px;
+}
+.n4{
+    top: 62px;
+    left: 42px;
+}
+.x4{
+    top: 112px;
+    left: 42px;
+    width: 320px;
+}
+.b4{
+    top: 196px;
+    left: 42px;
+    width: 198px;
+}
+.i4{
+    top: 57px;
+    left: 450px;
+    width: 296px;
+    height: 187px;
+}
