@@ -275,3 +275,55 @@ a{
     width: 445px;
     height: 400px;
 }
+.pricing{
+    height: 870px;
+}
+.pr-title{
+    position: absolute;
+    top: 72px;
+    left: 0px;
+    width: 1210px;
+}
+.pr-cols{
+    position: absolute;
+    top: 199px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    justify-content: space-between;
+    width: 1210px;
+}
+.pr-img{
+    width: 380px;
+    height: 260px;
+}
+.pr-name{
+    margin-top: 49px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.pr-text{
+    width: 340px;
+    margin-top: 14px;
+    font-size: 14px;
+    color: rgb(150, 150, 156);
+}
+.chip{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    width: 186px;
+    height: 40px;
+    margin-top: 22px;
+    padding-left: 14px;
+    background-color: rgb(240, 240, 240);
+}
+.chip-big{
+    font-size: 22px;
+}
+.chip-small{
+    font-size: 12px;
+    color: rgb(150, 150, 156);
+}
