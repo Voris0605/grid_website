@@ -25,7 +25,7 @@ a{
     color: rgb(150, 150, 156);
 }
 .btn{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 52px;
@@ -40,31 +40,31 @@ a{
     font-weight: bold;
 }
 .nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: 326px 1fr 195px;
     align-items: center;
     width: 1210px;
     height: 110px;
     margin: 0px auto;
 }
 .logo{
-    width: 326px;
     font-size: 30px;
 }
 .menu{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: start;
+    gap: 42px;
 }
 .menu a{
-    margin-right: 42px;
     font-size: 14px;
     font-weight: bold;
 }
 .talk{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    width: 195px;
     height: 56px;
-    margin-left: auto;
     border: 2px solid rgb(38, 45, 52);
     border-radius: 4px;
     font-size: 17px;
