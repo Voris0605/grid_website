@@ -374,3 +374,25 @@ a{
     font-size: 17px;
     color: white;
 }
+.footer{
+    height: 130px;
+}
+.f-line{
+    width: 1210px;
+    height: 1px;
+    background-color: rgb(225, 225, 225);
+}
+.f-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 36px;
+}
+.f-logo{
+    font-size: 30px;
+}
+.f-links{
+    text-align: right;
+    font-size: 17px;
+    color: rgb(140, 150, 160);
+}
