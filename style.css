@@ -237,3 +237,41 @@ a{
     width: 296px;
     height: 187px;
 }
+.about{
+    height: 590px;
+}
+.ab-row{
+    display: grid;
+    grid-template-columns: 765px 445px;
+    padding-top: 59px;
+}
+.ab-title{
+    padding-top: 7px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ab-text{
+    width: 580px;
+    margin-top: 41px;
+    font-size: 16px;
+    color: rgb(150, 150, 156);
+}
+.stats{
+    display: grid;
+    grid-template-columns: 232px 215px 200px;
+    margin-top: 79px;
+}
+.st-num{
+    font-size: 44px;
+    font-weight: bold;
+}
+.st-label{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(150, 150, 156);
+}
+.ab-img{
+    width: 445px;
+    height: 400px;
+}
